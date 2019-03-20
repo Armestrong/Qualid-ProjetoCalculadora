@@ -1,0 +1,31 @@
+package br.com.fiap.Pro;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import org.junit.jupiter.api.Test;
+
+class Calculo {
+
+	@Test
+	public void testeSet() {
+
+		double peso = 45 ;
+	
+		Produto calc = new Produto();
+		
+		calc.setPeso(peso);
+		
+		double resultadoReal = (peso);
+		equals(resultadoReal);
+	}
+	
+	@Test
+	public void testGet () {
+		Produto cal = new Produto(double 10, double 50)
+		double altura = cal.getAltura();
+		double alturaPrevista = 50;
+		assertEquals(altura, alturaPrevista);
+
+	}
+	
+}

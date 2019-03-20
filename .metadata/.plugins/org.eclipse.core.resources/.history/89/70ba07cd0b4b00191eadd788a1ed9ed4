@@ -1,0 +1,17 @@
+package br.com.fiap.Pro;
+
+public class Produto {
+
+	privatedoublepeso;
+	
+	privatedoublealtura;
+	publicdoublegetPeso() { returnpeso; }
+
+	publicvoidsetPeso(doublepeso) { this.peso= peso; }
+
+	publicdoublegetAltura() { returnaltura; }
+
+	publicvoidsetAltura(doublealtura) { this.altura= altura; }
+	}
+
+}

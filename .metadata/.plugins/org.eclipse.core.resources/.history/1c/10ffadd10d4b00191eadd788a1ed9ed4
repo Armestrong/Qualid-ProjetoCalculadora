@@ -1,0 +1,19 @@
+package br.com.fiap.Pro;
+
+import org.junit.jupiter.api.Test;
+
+class Calculo {
+
+	@Test
+	public void testeSomar() {
+
+		double peso = 45 ;
+	
+		Produto calc = new Produto();
+		
+		calc.setPeso(peso);
+		
+		double resultadoReal = (peso);
+		equals(resultadoReal);
+	}
+}

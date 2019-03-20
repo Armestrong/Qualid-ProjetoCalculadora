@@ -1,0 +1,31 @@
+package br.com.fiap.Pro;
+
+public class Produto {
+
+	private double peso;
+
+	private double altura;
+	
+	private double aux ;
+	
+	public double getPeso() { 
+		return peso; 
+		}
+
+	public void setPeso(double peso) { this.peso= peso; }
+
+	public double getAltura() { 
+		return altura; }
+
+	public void setAltura(double altura) {
+		this.altura = altura;
+	}
+	
+	
+	public double multiplicar(double n1,double n2) {
+		aux = n1 * n2;
+		return aux;
+	}
+	
+}
+

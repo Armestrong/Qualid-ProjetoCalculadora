@@ -1,0 +1,18 @@
+package br.com.fiap.Pro;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class Calculo {
+
+	@Test
+	public void testeSomar() {
+		double peso= 5;
+		double alt = 5;
+		Produto calc = new Produto();
+		double resultadoEsperado = 10;
+		double resultadoReal = (peso, alt);
+		assertEquals(resultadoEsperado, resultadoReal);
+	}
+}

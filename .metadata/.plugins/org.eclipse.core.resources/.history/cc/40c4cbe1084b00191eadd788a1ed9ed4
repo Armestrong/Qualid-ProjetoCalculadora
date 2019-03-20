@@ -1,0 +1,19 @@
+
+public class Calculadoa {
+	
+	
+		// atributo privateintresultado = 0;
+		// método somar publicintsomar( intn1, intn2 ){
+		resultado = n1 + n2; returnresultado;
+		}
+		// método subtrair publicintsubtrair( intn1, intn2 ){
+		resultado = n1 -n2; returnresultado; }        
+		// método multiplicar publicintmultiplicar( intn1, intn2 ){
+		resultado = n1 * n2; returnresultado;
+		}
+		// método dividir publicintdividir( intn1, intn2 ){
+		resultado = n1 / n2; returnresultado;
+	
+
+
+}
